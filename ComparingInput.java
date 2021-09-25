@@ -6,5 +6,6 @@ public class ComparingInput {
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
         System.out.println(num>20);
+        sc.close();
     }
 }
