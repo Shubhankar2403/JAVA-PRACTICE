@@ -7,6 +7,7 @@ public class Greetings2 {
         String name = sc.nextLine();
         String greet = "Dear <!name>, thanks a lot.";
         System.out.println(greet.replace("<!name>", name));
+        sc.close();
     }
     
 }

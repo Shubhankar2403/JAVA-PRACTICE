@@ -15,5 +15,6 @@ public class PercentageCalculator {
         float sub5 = sc.nextFloat();
         float percent = (sub1 + sub2 + sub3 + sub4 + sub5)/5;
         System.out.println("The percentage of the student is: " +percent);
+        sc.close();
     }
 }

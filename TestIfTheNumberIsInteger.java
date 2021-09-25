@@ -6,6 +6,7 @@ public class TestIfTheNumberIsInteger {
         Scanner sc = new Scanner(System.in);
         boolean N = sc.hasNextInt();
         System.out.println(N);
+        sc.close();
     }
     
 }

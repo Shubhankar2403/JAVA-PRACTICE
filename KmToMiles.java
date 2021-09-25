@@ -7,5 +7,6 @@ public class KmToMiles {
         double km = sc.nextDouble();
         double miles = 0.62137 *km;
         System.out.println(km + "Kilometer = " + miles + " Miles");
+        sc.close();
     }
 }
